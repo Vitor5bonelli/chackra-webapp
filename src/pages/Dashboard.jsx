@@ -1,4 +1,5 @@
 import { Box, Container, Heading, Text } from "@chakra-ui/react";
+import Navbar from "../componentes/Navbar";
 
 export default function Dashboard(){
 
@@ -17,6 +18,8 @@ export default function Dashboard(){
 
     return(
         <div>
+            <Navbar/>
+            
             <Container as="section" > 
                 <Heading my="30px" p="10px" bg="lightgray">Titulo h2 do chakra</Heading>
                 <Text bold="800" color="blue.400">Nossa veio o chakar kkkkkkk</Text>

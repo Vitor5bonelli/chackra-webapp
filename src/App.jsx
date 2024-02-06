@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import './App.css'
 import Dashboard from './pages/Dashboard'
+import Home from './pages/Home'
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
         <Routes>
 
           <Route path="/Dashboard" element={<Dashboard/>} />
+          <Route path="/Home" element={<Home/>} />
 
         </Routes>
 
